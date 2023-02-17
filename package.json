@@ -4,8 +4,19 @@
   "main": "index.js",
   "author": "kaz <kzzz123@protonmail.com>",
   "license": "MIT",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{css,less,sass,scss}": [
+      "stylelint --fix"
+    ]
+  },
   "devDependencies": {
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "prepare": "husky install",
+    "lint-staged": "^13.1.2"
   },
   "scripts": {
     "prepare": "husky install"

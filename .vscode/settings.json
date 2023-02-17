@@ -1,0 +1,6 @@
+{
+    "prettier.arrowParens": "avoid",
+    "prettier.singleQuote": true,
+    "prettier.semi": false,
+    "prettier.configPath": "my-app/.prettierrc"
+}
