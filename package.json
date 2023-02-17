@@ -1,0 +1,13 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kaz <kzzz123@protonmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.3"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
