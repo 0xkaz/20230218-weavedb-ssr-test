@@ -17,7 +17,7 @@
     "start": "next start",
     "lint": "next lint",
     "prettier": "prettier ./**/*.{ts,tsx} --write",
-    "prepare": "husky install"
+    "prepare": "cd .. && husky install front/.husky"
   },
   "node": {
     "fs": "empty",
@@ -32,13 +32,14 @@
     "eslint-config-next": "13.1.6",
     "next": "13.1.6",
     "prettier": "^2.8.4",
+    "ramda": "^0.28.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.5",
     "weavedb-client": "^0.20.0",
-    "weavedb-node-client": "^0.19.4",
+    "weavedb-node-client": "^0.20.1",
     "weavedb-sdk": "^0.18.5",
-    "weavedb-sdk-node": "^0.20.29"
+    "weavedb-sdk-node": "^0.20.34"
   },
   "devDependencies": {
     "husky": "^8.0.3",
